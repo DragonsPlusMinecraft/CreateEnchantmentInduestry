@@ -1,6 +1,7 @@
 package plus.dragons.createenchantmentindustry;
 
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.EventPriority;
@@ -44,6 +45,8 @@ public class EnchantmentIndustry {
         .tooltips()
         .ui();
 
+    private static CreativeModeTab CREATIVE_MODE_TAB;
+
     public EnchantmentIndustry() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         IEventBus forgeEventBus = MinecraftForge.EVENT_BUS;
@@ -72,11 +75,11 @@ public class EnchantmentIndustry {
         CeiItems.register();
         CeiRecipeTypes.register(modEventBus);
         CeiTags.register();
+        CREATIVE_MODE_TAB = new CeiCreativeModeTab();
         REGISTRATE.registerEventListeners(modEventBus);
     }
 
     private void registerForgeEvents(IEventBus forgeEventBus) {
-        forgeEventBus.addListener(CeiItems::fillCreateItemGroup);
         forgeEventBus.addListener(CeiFluids::handleInkEffect);
     }
     
