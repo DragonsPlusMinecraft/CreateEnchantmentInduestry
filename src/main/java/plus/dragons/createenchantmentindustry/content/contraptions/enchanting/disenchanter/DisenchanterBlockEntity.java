@@ -207,7 +207,7 @@ public class DisenchanterBlockEntity extends SmartBlockEntity implements IHaveGo
 
     protected void absorbExperienceFromWorld() {
         boolean absorbedXp = false;
-        List<Player> players = level.getEntitiesOfClass(Player.class, absorbArea, LivingEntity::isAlive);
+        List<Player> players = level.getEntitiesOfClass(Player.class, absorbArea, player -> player.isAlive() && !player.isSpectator());
         if (!players.isEmpty()) {
             AtomicInteger sum = new AtomicInteger();
             internalTank.allowInsertion();
