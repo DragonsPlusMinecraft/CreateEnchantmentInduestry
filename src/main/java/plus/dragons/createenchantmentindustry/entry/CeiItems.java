@@ -1,6 +1,9 @@
 package plus.dragons.createenchantmentindustry.entry;
 
-import com.simibubi.create.*;
+import com.simibubi.create.AllBlocks;
+import com.simibubi.create.AllCreativeModeTabs;
+import com.simibubi.create.AllFluids;
+import com.simibubi.create.AllItems;
 import com.tterrag.registrate.util.entry.ItemEntry;
 import net.minecraft.world.item.Rarity;
 import plus.dragons.createdragonlib.init.FillCreateItemGroupEvent;

@@ -26,7 +26,6 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 import plus.dragons.createenchantmentindustry.entry.CeiBlockEntities;
 import plus.dragons.createenchantmentindustry.entry.CeiBlocks;
-import plus.dragons.createenchantmentindustry.foundation.config.CeiConfigs;
 
 import java.util.ArrayList;
 import java.util.List;
