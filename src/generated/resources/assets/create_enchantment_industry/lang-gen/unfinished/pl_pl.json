@@ -1,4 +1,5 @@
 {
+	"_": "Missing Localizations: 21",
 
 	"_": "->------------------------]  Game Elements  [------------------------<-",
 
@@ -32,6 +33,8 @@
 	"advancement.create_enchantment_industry.copiable_mystery.desc": "Skopiuj zaklętą książkę używając Kopiarki",
 	"advancement.create_enchantment_industry.relic_restoration": "Przywrócenie Relikwii",
 	"advancement.create_enchantment_industry.relic_restoration.desc": "Zrób zupełnie nową kopię z postrzępionej książki",
+	"advancement.create_enchantment_industry.emerging_brand": "UNLOCALIZED: Emerging Brand",
+	"advancement.create_enchantment_industry.emerging_brand.desc": "UNLOCALIZED: Using the printer to name items",
 	"advancement.create_enchantment_industry.great_publisher": "Znany Twórca",
 	"advancement.create_enchantment_industry.great_publisher.desc": "Skopiuj ponad 1000 książek używając jednej Kopiarki!",
 	"advancement.create_enchantment_industry.experimental": "Eksperymentalne",
@@ -63,7 +66,14 @@
 	"create_enchantment_industry.ponder.absorb_experience_nugget.text_1": "Bryłki Doświadczenia mogą zostać zaabsorbowane przez Odklinacz",
 
 	"create_enchantment_industry.ponder.copy.header": "Używanie Kopiarki",
+	"create_enchantment_industry.ponder.copy.text_1": "UNLOCALIZED: Liquid Experience is required to duplicate enchanted books.",
+	"create_enchantment_industry.ponder.copy.text_2": "UNLOCALIZED: If the enchantment on the enchantment book you are copying has a level that exceeds its maximum level, then you will need Hyper Experience.",
+	"create_enchantment_industry.ponder.copy.text_3": "UNLOCALIZED: Ink is required to duplicate written books.",
+	"create_enchantment_industry.ponder.copy.text_4": "UNLOCALIZED: Name Tag and Train Schedule can also be copied.",
+	"create_enchantment_industry.ponder.copy.text_5": "UNLOCALIZED: If you set the name tag as the print target, you can use the printer to name the item.",
 
+	"create_enchantment_industry.ponder.crushing_wheel_tweak.header": "UNLOCALIZED: We call it inefficiency...",
+	"create_enchantment_industry.ponder.crushing_wheel_tweak.text_1": "UNLOCALIZED: The Crushing Wheel has a chance of dropping a very small amount of experience nugget when it kills a creature.",
 
 	"create_enchantment_industry.ponder.disenchant.header": "Odklinanie",
 	"create_enchantment_industry.ponder.disenchant.text_1": "Wszystkie przedmioty otrzymane przez odklinacz stracą swoje zaklęcia, które zostaną przerobione na zaklętą ciecz do przechowywania",
@@ -73,6 +83,10 @@
 	"create_enchantment_industry.ponder.drop_experience_nugget.text_1": "Kiedy mob zostanie pokonany za pomocą aplikatora, ma szansę upuścić zaklęte samorodki",
 
 	"create_enchantment_industry.ponder.enchant.header": "Zaklinanie",
+	"create_enchantment_industry.ponder.enchant.text_1": "UNLOCALIZED: Blaze Enchanter can enchant your items.",
+	"create_enchantment_industry.ponder.enchant.text_2": "UNLOCALIZED: However, it cannot work on books...",
+	"create_enchantment_industry.ponder.enchant.text_3": "UNLOCALIZED: ... nor can it add incompatible enchantments to your items.",
+	"create_enchantment_industry.ponder.enchant.text_4": "UNLOCALIZED: Blaze Enchanter can upgrade an existing enchantment to a higher level if feasible",
 
 	"create_enchantment_industry.ponder.experience_bottle.header": "Użytek Zaklętych Butelek",
 	"create_enchantment_industry.ponder.experience_bottle.text_1": "Zaklęte butelki mogą być opróżniane przy pomocy odklinacza...",
@@ -81,6 +95,7 @@
 	"create_enchantment_industry.ponder.hyper_enchant.header": "Hiper-Zaklinanie",
 	"create_enchantment_industry.ponder.hyper_enchant.text_1": "W Zbiorniku znajduje się Hiper Zaklęta Ciecz",
 	"create_enchantment_industry.ponder.hyper_enchant.text_2": "Płomienny Zaklinacz nakarmiony Hiper Zaklętą Cieczą będzie przekazywał na przedmioty zaklęcie o jeden poziom wyższy niż ustawione",
+	"create_enchantment_industry.ponder.hyper_enchant.text_3": "UNLOCALIZED: Enchantment with level cap of 1 level cannot be upgraded to level 2 in hyper-enchant.",
 
 	"create_enchantment_industry.ponder.leak.header": "O nie! Jest wyciek!",
 	"create_enchantment_industry.ponder.leak.text_1": "Jeśli w zbiorniku znajduje się Zaklęta Ciecz...",
@@ -89,6 +104,10 @@
 	"create_enchantment_industry.ponder.leak.text_4": "Na szczęście, wycieknięte doświadczenie wydostanie się w postaci Kulek Doświadczenia, które mogą zostać wchłonięte przez Odklinacz lub graczy",
 
 	"create_enchantment_industry.ponder.transform.header": "Używanie Poradnika Zaklęć",
+	"create_enchantment_industry.ponder.transform.text_1": "UNLOCALIZED: Right-click the Blaze Burner with an Enchanting Guide in hand when sneaking to transform it to a Blaze Enchanter.",
+	"create_enchantment_industry.ponder.transform.text_2": "UNLOCALIZED: To make Blaze Enchanter work, Enchanting Guide must be configured first. Right-clicking Blaze Enchanter or right-clicking Enchanting Guide in hands can open configuration panel.",
+	"create_enchantment_industry.ponder.transform.text_3": "UNLOCALIZED: To retrieve the enchanting guide, right-click the Blaze Enchanter with wrench when sneaking.",
+	"create_enchantment_industry.ponder.transform.text_4": "UNLOCALIZED: You can replace the Enchanting Guide by holding it directly in your hand and right-clicking on the Blaze Enchanter.",
 
 
 	"_": "->------------------------]  Item Descriptions  [------------------------<-",
@@ -109,6 +128,7 @@
 	"create_enchantment_industry.gui.goggles.blaze_enchanter": "Aktywne Zaklęcie:",
 	"create_enchantment_industry.gui.goggles.blaze_enchanter.invalid_target": "Niepoprawny Przedmiot",
 	"create_enchantment_industry.gui.goggles.xp_consumption": "Pobiera %s mW",
+	"create_enchantment_industry.gui.goggles.hyper_xp_consumption": "UNLOCALIZED: Consumes Hyper Experience: %s mB",
 	"create_enchantment_industry.gui.goggles.ink_consumption": "Pobiera %s mW",
 	"create_enchantment_industry.gui.goggles.too_expensive": "Zbyt Drogo!",
 
@@ -117,5 +137,9 @@
 
 	"recipe.create_enchantment_industry.disenchanting": "Odklinanie",
 
+	"create_enchantment_industry.display_source.blaze_enchanter_source_target_enchantment": "UNLOCALIZED: Target Enchantment",
+	"create_enchantment_industry.display_source.printer_source_copy_content": "UNLOCALIZED: Copy Content",
+
+	"_": "Thank you for translating Create: Enchantment Industry!"
 
 }

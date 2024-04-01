@@ -1,5 +1,4 @@
 {
-	"_": "Missing Localizations: 0",
 
 	"_": "->------------------------]  Game Elements  [------------------------<-",
 
@@ -139,7 +138,5 @@
 
 	"create_enchantment_industry.display_source.blaze_enchanter_source_target_enchantment": "目標附魔",
 	"create_enchantment_industry.display_source.printer_source_copy_content": "影印內容",
-
-	"_": "Thank you for translating Create: Enchantment Industry!"
 
 }
