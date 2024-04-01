@@ -3,7 +3,7 @@
   "_": "->------------------------]  Game Elements  [------------------------<-",
 
   "block.create_enchantment_industry.blaze_enchanter": "Encantador de Blaze",
-  "block.create_enchantment_industry.Desencantador": "Desencantador",
+  "block.create_enchantment_industry.disenchanter": "Desencantador",
   "block.create_enchantment_industry.ink": "Tinta",
   "block.create_enchantment_industry.printer": "Impresora",
 
