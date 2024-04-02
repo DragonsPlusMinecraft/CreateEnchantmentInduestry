@@ -123,6 +123,8 @@ public class EnchantingGuideItem extends Item implements MenuProvider {
         if (enchantments.isEmpty())
             return null;
         var index = tag.getInt("index");
+        if(index>=enchantments.size()) // When certain enchantment of the enchantment book has been removed from the game, this works.
+            index=0;
         var result = enchantments.get(index);
         return EnchantmentEntry.of(result.getKey(), result.getValue());
     }
