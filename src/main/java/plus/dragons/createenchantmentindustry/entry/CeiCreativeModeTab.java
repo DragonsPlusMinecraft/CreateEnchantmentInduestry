@@ -1,6 +1,7 @@
 package plus.dragons.createenchantmentindustry.entry;
 
 import net.minecraft.core.NonNullList;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import org.jetbrains.annotations.NotNull;
@@ -22,6 +23,11 @@ public class CeiCreativeModeTab extends CreativeModeTab {
         items.add(CeiItems.HYPER_EXP_BOTTLE.asStack());
     }
 
+
+    @Override
+    public Component getDisplayName() {
+        return Component.literal("CEI");
+    }
 
     @Override
     public @NotNull ItemStack makeIcon() {
