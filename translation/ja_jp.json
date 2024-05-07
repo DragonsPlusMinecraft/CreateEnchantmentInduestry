@@ -127,9 +127,9 @@
 	"create_enchantment_industry.gui.goggles.printer.no_target": "なし",
 	"create_enchantment_industry.gui.goggles.blaze_enchanter": "設定中のエンチャント:",
 	"create_enchantment_industry.gui.goggles.blaze_enchanter.invalid_target": "無効なターゲット",
-	"create_enchantment_industry.gui.goggles.xp_consumption": "必要経験値: %s mB",
-	"create_enchantment_industry.gui.goggles.hyper_xp_consumption": "消費するハイパー経験値: %s mB",
-	"create_enchantment_industry.gui.goggles.ink_consumption": "必要インク: %s mB",
+	"create_enchantment_industry.gui.goggles.xp_consumption": "必要な経験値: %s mB",
+	"create_enchantment_industry.gui.goggles.hyper_xp_consumption": "必要なハイパー経験値: %s mB",
+	"create_enchantment_industry.gui.goggles.ink_consumption": "必要なインク: %s mB",
 	"create_enchantment_industry.gui.goggles.too_expensive": "コストが高すぎます!",
 
 	"create_enchantment_industry.generic.unit.page": "ページ",
