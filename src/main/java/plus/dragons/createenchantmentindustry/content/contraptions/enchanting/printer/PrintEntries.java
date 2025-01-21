@@ -163,9 +163,12 @@ public class PrintEntries {
         @Override
         public ItemStack print(ItemStack target, ItemStack material) {
             var ret = target.copy();
-            if(CeiConfigs.SERVER.copyingWrittenBookAlwaysGetOriginalVersion.get())
-                target.getOrCreateTag().putInt("generation", 0);
-            else target.getOrCreateTag().putInt("generation", 1);
+            if (!CeiConfigs.SERVER.copyingWrittenBookAlwaysGetOriginalVersion.get()) {
+				var tag = ret.getOrCreateTag();
+				int generation = tag.getInt("generation");
+				if (generation <= 1)
+					tag.putInt("generation", generation + 1);
+			}
             return ret;
         }
 
